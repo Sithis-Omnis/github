@@ -1,0 +1,17 @@
+Created on Thu Dec  8 12:57:09 2016
+
+@author: murmu
+"""
+class candidature:
+    def __init__(self):
+        self.salaire = 0
+        self.nbrcandidature = 0
+
+def embauche():
+        p.add(Label(p, text=("Combien voulez vous recruter d'employés ?"), anchor=W) )
+        p.add(Entry(p, textvariable=nbrcandidature, width=30))
+        p.add(Label(p, text=("Quel salaire êtes vous prêt à attribuer"), anchor=W) )
+        p.add(Entry(p, textvariable=salaire, width=30))
+        p.add(Button(p, text =("Générer l'offre."), anchor=W, command=generationcandidature))
+        
+def generationcandidature():
