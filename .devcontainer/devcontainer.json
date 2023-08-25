@@ -1,0 +1,56 @@
+{
+    "name": "Basic Python", "build": { "dockerfile": "Dockerfile"},
+    "remoteUser": "vscode",
+    "customizations": 
+    {
+        "vscode": {
+    "extensions": [
+		"ms-python.python",
+		"ms-azuretools.vscode-docker",
+		"ms-vscode-remote.vscode-remote-extensionpack",
+		"ms-vscode-remote.remote-wsl",
+		"eamodio.gitlens",
+		"donjayamanne.python-environment-manager",
+		"batisteo.vscode-django",
+		"njpwerner.autodocstring",
+		"ZainChen.json",
+		"etmoffat.pip-packages",
+		"felipecaputo.git-project-manager",
+		"McCarter.start-git-bash"
+	],
+    "features": [
+        "ghcr.io/devcontainers/features/anaconda:1",], 
+		{
+		"http.proxySupport": "off",
+		"security.workspace.trust.enabled": false,
+		"security.workspace.trust.startupPrompt": "never",
+		"security.workspace.trust.untrustedFiles": "open",
+		"security.workspace.trust.untrustedFiles": "open",
+		"security.workspace.trust.emptyWindow": true,
+		"security.restrictUNCAccess": false  },
+		"security.allowedUNCHosts": [
+		"192.168.1.44",
+		"192.168.1.14"
+		  ]
+		  "http.systemCertificates": false
+		  "http.proxyStrictSSL": false
+		  "remote.autoForwardPorts": true
+		  "remote.forwardOnOpen": true
+		  "remote.localPortHost": "allInterfaces"
+		  "remote.restoreForwardedPorts": true
+		  "remote.localPortHost": "localhost"
+		  
+		  ]
+
+
+		}  
+}
+
+
+
+
+
+
+
+    
+    
